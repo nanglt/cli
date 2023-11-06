@@ -1,11 +1,11 @@
 import inquirer from "inquirer";
 import axios from "axios";
 import { io } from "socket.io-client";
-
+export const url = "http://147.135.76.154:5000"
 export async function createGame(token, data){
     const res = await axios({
         method: 'post',
-        url: 'http://147.135.76.154:5000/games/',
+        url: `${url}/games/`,
         headers: {
             Authorization: `Bearer ${token}`
         },
@@ -21,10 +21,10 @@ export async function main(){
         "endTime": "2023-11-30T10:20:10Z",
         "title": "game title1",
         "questions": [
-            "653731edea515effb91d5979",
-            "653731edea515effb91d597e",
-            "653731edea515effb91d5983",
-            "65373e30bbb3df44fd05ada0"
+            "6548b7f83e784544bcc7dd2d",
+            "6548b7f83e784544bcc7dd2e",
+            "6548b7f83e784544bcc7dd2f",
+            "6548b7f83e784544bcc7dd30"
         ]
     };
     try{
@@ -50,18 +50,98 @@ export async function main(){
         if(createAnswer.answer){
             const res = await createGame(tokenId, data);
             console.log("PIN: ", res.pin);
-            const socket = io('http://147.135.76.154:5000');
+            const socket = io(url);
             socket.on('connection', () => {
                 console.log(socket.id);
             });
-            socket.on('managerEvent', (data) => {
+            socket.on('onManagerMessage', (data) => {
                 console.log(data);
+                if(data.data.event === 'PLAYER_ANSWERED'){
+                    console.log(data.data.statistic)
+                }
+                if(data.data.event === 'SHOW_RANKED_BOARD'){
+                    console.log(data.data.scoreboard)
+                }
             })
+            socket.emit('managerEvent', {
+                event: "HELLO",
+                data: {
+                    pin: res.pin
+                }
+            })
+            const startGameAnswer = await inquirer.prompt([
+                {
+                    type: "list",
+                    name: "answer",
+                    message: "Start game with?",
+                    choices: [
+                      { name: "API", value: true },
+                      { name: "SOCKET", value: false },
+                    ],
+                  },
+            ])
+            if(startGameAnswer.answer){
+                socket.emit('managerEvent', {
+                    event: "START",
+                    data: {
+                        pin: res.pin,
+                        type: "API"
+                    }
+                })
+            } else{
+                socket.emit('managerEvent', {
+                    event: "START",
+                    data: {
+                        pin: res.pin,
+                        type: "API"
+                    }
+                })
+            }
+            const endGameAnswer = await inquirer.prompt([
+                {
+                    type: "list",
+                    name: "answer",
+                    message: "End game?",
+                    choices: [
+                      { name: "Y", value: true },
+                      { name: "N", value: false },
+                    ],
+                }
+            ])
+            if(endGameAnswer.answer){
+                socket.emit('managerEvent', {
+                    event: "END_GAME",
+                    data: {
+                        pin: res.pin
+                    }
+                })
+                const leaveGameAnswer = await inquirer.prompt([
+                    {
+                        type: "list",
+                        name: "answer",
+                        message: "Exit?",
+                        choices: [
+                          { name: "Y", value: true },
+                          { name: "N", value: false },
+                        ],
+                    }
+                ])
+                if(leaveGameAnswer.answer){
+                    socket.emit('managerEvent', {
+                        event: "LEAVE_GAME",
+                        data: {
+                            pin: res.pin
+                        }
+                    })
+                    socket.disconnect();
+                }
+            }
         } else{
             console.log("END!")
         }
     } catch(error){
-        console.log("Something went wrong!", error);
+        console.log(error)
+        console.log("Something went wrong!", error.message);
     }
 }
 

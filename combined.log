@@ -1,0 +1,915 @@
+{"context":"NestFactory","level":"info","message":"Starting Nest application..."}
+{"context":"InstanceLoader","level":"info","message":"DatabaseModule dependencies initialized"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized"}
+{"context":"InstanceLoader","level":"info","message":"PassportModule dependencies initialized"}
+{"context":"InstanceLoader","level":"info","message":"Cachev2Module dependencies initialized"}
+{"context":"InstanceLoader","level":"info","message":"MulterModule dependencies initialized"}
+{"context":"InstanceLoader","level":"info","message":"StorageModule dependencies initialized"}
+{"context":"InstanceLoader","level":"info","message":"BIJobsModule dependencies initialized"}
+{"context":"InstanceLoader","level":"info","message":"JwtModule dependencies initialized"}
+{"context":"InstanceLoader","level":"info","message":"HttpModule dependencies initialized"}
+{"context":"InstanceLoader","level":"info","message":"AppModule dependencies initialized"}
+{"context":"InstanceLoader","level":"info","message":"PrometheusModule dependencies initialized"}
+{"context":"InstanceLoader","level":"info","message":"ConfigHostModule dependencies initialized"}
+{"context":"InstanceLoader","level":"info","message":"TerminusModule dependencies initialized"}
+{"context":"InstanceLoader","level":"info","message":"DiscoveryModule dependencies initialized"}
+{"context":"InstanceLoader","level":"info","message":"ConfigModule dependencies initialized"}
+{"context":"InstanceLoader","level":"info","message":"ConfigModule dependencies initialized"}
+{"context":"InstanceLoader","level":"info","message":"ScheduleModule dependencies initialized"}
+{"context":"InstanceLoader","level":"info","message":"BullModule dependencies initialized"}
+{"context":"InstanceLoader","level":"info","message":"BullModule dependencies initialized"}
+{"context":"InstanceLoader","level":"info","message":"CacheModule dependencies initialized"}
+{"context":"InstanceLoader","level":"info","message":"CacheModule dependencies initialized"}
+{"context":"InstanceLoader","level":"info","message":"CacheModule dependencies initialized"}
+{"context":"InstanceLoader","level":"info","message":"AuthorizationModule dependencies initialized"}
+{"context":"InstanceLoader","level":"info","message":"BullModule dependencies initialized"}
+{"context":"InstanceLoader","level":"info","message":"BullModule dependencies initialized"}
+{"context":"InstanceLoader","level":"info","message":"AppReviewModule dependencies initialized"}
+{"level":"info","message":"Redis client connected"}
+{"level":"info","message":"Redis client connected"}
+{"level":"info","message":"Redis client connected"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmCoreModule dependencies initialized"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized"}
+{"context":"InstanceLoader","level":"info","message":"CurrencyConverterModule dependencies initialized"}
+{"context":"InstanceLoader","level":"info","message":"CacheDataModule dependencies initialized"}
+{"context":"InstanceLoader","level":"info","message":"ActivityKPIsCacheModule dependencies initialized"}
+{"context":"InstanceLoader","level":"info","message":"AuthModule dependencies initialized"}
+{"context":"InstanceLoader","level":"info","message":"ServiceAccountKeyModule dependencies initialized"}
+{"context":"InstanceLoader","level":"info","message":"ServiceAccountModule dependencies initialized"}
+{"context":"InstanceLoader","level":"info","message":"CountryModule dependencies initialized"}
+{"context":"InstanceLoader","level":"info","message":"UsersModule dependencies initialized"}
+{"context":"InstanceLoader","level":"info","message":"MetricsModule dependencies initialized"}
+{"context":"InstanceLoader","level":"info","message":"StoreModule dependencies initialized"}
+{"context":"InstanceLoader","level":"info","message":"AppInfosModule dependencies initialized"}
+{"context":"InstanceLoader","level":"info","message":"KpiProgressModule dependencies initialized"}
+{"context":"InstanceLoader","level":"info","message":"MktOverviewModule dependencies initialized"}
+{"context":"InstanceLoader","level":"info","message":"DriveModule dependencies initialized"}
+{"context":"InstanceLoader","level":"info","message":"NotificationModule dependencies initialized"}
+{"context":"InstanceLoader","level":"info","message":"ProductLeaderboardModule dependencies initialized"}
+{"context":"InstanceLoader","level":"info","message":"CustomDashboardsModule dependencies initialized"}
+{"context":"InstanceLoader","level":"info","message":"DataConnectorsModule dependencies initialized"}
+{"level":"warn","message":"DEPRECATED! \"CacheModule\" (from the \"@nestjs/common\" package) is deprecated and will be removed in the next major release. Please, use the \"@nestjs/cache-manager\" package instead."}
+{"context":"InstanceLoader","level":"info","message":"DataconnectorsV2Module dependencies initialized"}
+{"context":"InstanceLoader","level":"info","message":"QueriesModule dependencies initialized"}
+{"context":"InstanceLoader","level":"info","message":"ChartsModule dependencies initialized"}
+{"context":"RoutesResolver","level":"info","message":"AppController {/}:"}
+{"context":"RoutesResolver","level":"info","message":"UsersController {/users}:"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users/all-principals-role-permissions, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users/principal-role-permissions, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users/principal-name, PUT} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users/current-role-permissions, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users/principal-authority, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users/principal-authority, PUT} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users/principal-authority, PATCH} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users/role-reset, PUT} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users/custom-role, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users/all-roles, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users/role-group-config/init, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users/role-group-config, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users/roles-page-init, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users/custom-role, DELETE} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users/custom-role, PUT} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users/role-principals, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users/principal, DELETE} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users/is-authorized, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users/update-new-feature-permissions, PUT} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users/emails, GET} route"}
+{"context":"RoutesResolver","level":"info","message":"AppInfosController {/apps}:"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/apps, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/apps/management, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/apps/count, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/apps, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/apps, PATCH} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/apps/service-account, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/apps, DELETE} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/apps/update-status, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/apps/release-spreadsheets, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/apps/release-spreadsheets, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/apps/release-spreadsheets/:id, PUT} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/apps/release-spreadsheets/:id, DELETE} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/apps/release-spreadsheets/update, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/apps/release-spreadsheets/reset, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/apps/release-notes, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/apps/release-notes/reload, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/apps/release, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/apps/store-fees, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/apps/store-fees, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/apps/store-fees/:id, DELETE} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/apps/store-fees/:id, PATCH} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/apps/categories, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/apps/categories, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/apps/categories/:id, PATCH} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/apps/categories/:id, DELETE} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/apps/categories/:id/sub-categories, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/apps/categories/:id/sub-categories/:subId, PATCH} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/apps/categories/:id/sub-categories/:subId, DELETE} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/apps/app-store-info, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/apps/app-store-info, PATCH} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/apps/appsflyer/push-api, PUT} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/apps/appsflyer/push-api, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/apps/gcp/projects, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/apps/gcp/projects/firebase/apps, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/apps/gcp/projects/firebase/analytics, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/apps/features, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/apps/app-features, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/apps/features/attach, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/apps/features/detach, DELETE} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/apps/iap-packs, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/apps/iap-packs, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/apps/app-iap-packs/store, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/apps/iap-packs/attach, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/apps/iap-packs/detach, DELETE} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/apps/update-iap-feature, GET} route"}
+{"context":"RoutesResolver","level":"info","message":"DataConnectorsController {/data-connectors}:"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors, PUT} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors, DELETE} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/transmission/:transmissionId, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/transmission, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/assign, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/assign/:assignId, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/configuration, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/configuration, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/configuration/:configurationId, PATCH} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/transmit/multiple-anw, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/assign/meta, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/assign/clone/meta, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/meta/campaigns/:dataConnectorId/:adAccountId, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/meta/adcreatives/:dataConnectorId/:adAccountId, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/transmit/unity, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/:id/youtube-playlist, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/:id/youtube-playlist, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/youtube-videos, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/youtube/playlist-videos, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/detail/:id, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/assign/tiktok, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/assign/unity, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/unassign/unity, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/:id/mintegral-assign-offer, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/transmit/applovin, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/assign/applovin, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/transmit/ironsource, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/assign/ironsource, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/refactor/assign/unity, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/uploaded-creatives, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/uploaded-folders/creatives, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/reports/cost, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/reports/installs, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/reports/revenue-realtime, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/reports/mediation, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/reports/max, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/reports/iap, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/reports/uaxmo, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/reports/cache, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/reports/cache/reset, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/reports/cache/update, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/unity/apps, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/report/unity/cached, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/report/unity/cached/reset, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/report/unity/cached/update, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/authorization/init, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/ironsource/polling, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/ironsource/playable, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/app-campaigns, GET} route"}
+{"context":"RoutesResolver","level":"info","message":"DriveController {/drive}:"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/drive/files/:fileId, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/drive/files, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/drive/permissions, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/drive/download, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/drive/files, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/drive/service-account, GET} route"}
+{"context":"RoutesResolver","level":"info","message":"KpiProgressController {/kpi-progress}:"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/kpi-progress/achievement, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/kpi-progress/achievement/cached, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/kpi-progress/achievement/cached/reload, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/kpi-progress/achievement/cached/update, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/kpi-progress, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/kpi-progress/:id, PATCH} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/kpi-progress/:id, DELETE} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/kpi-progress/:id, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/kpi-progress, GET} route"}
+{"context":"RoutesResolver","level":"info","message":"AppReviewController {/app-review}:"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/app-review, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/app-review, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/app-review/cache/update, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/app-review/cache/reset, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/app-review/jobs, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/app-review/jobs, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/app-review/jobs, DELETE} route"}
+{"context":"RoutesResolver","level":"info","message":"AuthorizationController {/auth}:"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/auth/google/admob, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/auth/google/adwords, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/auth/google/drive, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/auth/google/youtube, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/auth/google/gmail, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/auth/facebook, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/auth/facebook/callback, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/auth/tiktok, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/auth/tiktok/callback, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/auth/applovin, GET} route"}
+{"context":"RoutesResolver","level":"info","message":"MetricsController {/metrics}:"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/metrics, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/metrics/restricted/:principalId, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/metrics/restricted, PUT} route"}
+{"context":"RoutesResolver","level":"info","message":"ServiceAccountKeyController {/service-account-key}:"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/service-account-key, POST} route"}
+{"context":"RoutesResolver","level":"info","message":"ServiceAccountController {/service-account}:"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/service-account, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/service-account, POST} route"}
+{"context":"RoutesResolver","level":"info","message":"DataConnectorV2Controller {/data-connectors}:"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/:id/mintegral-campaigns, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/:id/mintegral-offers, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/:id/mintegral-creatives, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/:id/mintegral-creative-sets, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/applovin/campaigns, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/applovin/creatives, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/applovin/creative-sets, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/unity/campaigns, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/unity/campaigns, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/unity/campaigns, PUT} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/unity/eligibility, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/unity/sdk-events, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/campaign-details/unity/bids, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/campaign-details/unity/budget, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/campaign-details/unity/creative-packs, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/campaign-details/unity, PATCH} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/tiktok/:id/campaigns, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/tiktok/:id/adgroups, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/tiktok/:id/creative-videos, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/admob/accounts, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/admob/apps, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/admob/ad-units, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/ironsource/campaigns/:dataConnectorId, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/ironsource/detail/campaigns/:dataConnectorId, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/ironsource/detail/creative-sets/:dataConnectorId, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/google-ads/campaigns, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/google-ads/assign, POST} route"}
+{"context":"RoutesResolver","level":"info","message":"LevelsController {/levels}:"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/levels/win, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/levels/loss, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/levels/start, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/levels/dropoff, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/levels/booster-used, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/levels/first-play-win-rate, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/levels/average-loss, GET} route"}
+{"context":"RoutesResolver","level":"info","message":"ResourcesController {/resources}:"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/resources/currency-source, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/resources/currency-sink, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/resources/currency-source-transactions, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/resources/currency-sink-transactions, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/resources/item-sink-count, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/resources/level-source, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/resources/level-sink, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/resources/screen-sink, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/resources/currency-flow, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/resources/level-flow, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/resources/currency-balance, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/resources/currency-balance-source, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/resources/user-bought-spent, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/resources/currency-bought-spent, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/resources/currency-source-by-level, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/resources/top-item, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/resources/purchase-structure, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/resources/top-purchase, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/resources/source-sink, GET} route"}
+{"context":"RoutesResolver","level":"info","message":"EngagementController {/engagement}:"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/engagement/session-start, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/engagement/engagement-time, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/engagement/daily-active-users, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/engagement/screen-engagement-time, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/engagement/screen-app-remove, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/engagement/level-app-remove, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/engagement/retention-rate, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/engagement/app-remove-per-installs, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/engagement/activity-kpis, GET} route"}
+{"context":"RoutesResolver","level":"info","message":"MonetizationController {/monetization}:"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/monetization/rewarded-video, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/monetization/rewarded-video-booster, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/monetization/rewarded-video-placement, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/monetization/rewarded-ads-show, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/monetization/interstitial-ads-show, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/monetization/day-show-inters, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/monetization/day-show-banner, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/monetization/day-rewarded-video, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/monetization/total-day-rwd-show-inters, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/monetization/day-received-rewarded-video, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/monetization/total-revenue, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/monetization/sum-revenue/admob, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/monetization/sum-revenue/max, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/monetization/sum-revenue/iap, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/monetization/total-spent, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/monetization/ecpm, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/monetization/iaa-revenue-by-ad-format, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/monetization/top-purchased-items-iap, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/monetization/ltv-per-rev, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/monetization/rewarded-video-level, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/monetization/revenue-by-package, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/monetization/placement-purchased-items, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/monetization/average-revenue, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/monetization/average-purchase, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/monetization/top-purchase-day, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/monetization/total-revenue-date, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/monetization/total-revenue-v2, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/monetization/pay-rate, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/monetization/report-pack, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/monetization/payment-breakdown, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/monetization/payment-breakdown-level, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/monetization/overview-metrics, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/monetization/overview-metrics/average-revenue, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/monetization/ingame-metrics/retention, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/monetization/ingame-metrics/engagement-time, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/monetization/ingame-metrics/imp-per-dau, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/monetization/business-metrics/roas, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/monetization/payback, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/monetization/overview-metrics/ecpi, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/monetization/overview/init-cache, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/monetization/overview/update-cache, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/monetization/overview/init-cache/average-revenue, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/monetization/overview/update-cache/average-revenue, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/monetization/mkt/ua-mo, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/monetization/average-purchase-payment-timegap, GET} route"}
+{"context":"RoutesResolver","level":"info","message":"ChartsController {/charts}:"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/charts/filter-values/levels/:chart, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/charts/filter-values/resources/:chart, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/charts/filter-values/monetization/:chart, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/charts/filter-values/engagement/:chart, GET} route"}
+{"context":"RoutesResolver","level":"info","message":"ProductLeaderboardController {/leaderboard}:"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/leaderboard/anr-rate, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/leaderboard/crash-rate, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/leaderboard/retention-rate, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/leaderboard/playtime, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/leaderboard/cache, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/leaderboard/cache/reload, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/leaderboard/cache/update, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/leaderboard/app-size, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/leaderboard/app-versions, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/leaderboard/rating, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/leaderboard/cache/anr-init, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/leaderboard/cache/crash-init, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/leaderboard/cache/appSize-init, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/leaderboard/details/retention-rate, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/leaderboard/app-versions/map-code-name, GET} route"}
+{"context":"RoutesResolver","level":"info","message":"CountryController {/countries}:"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/countries/initialize, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/countries, GET} route"}
+{"context":"RoutesResolver","level":"info","message":"CustomDashboardsController {/custom-dashboard}:"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/custom-dashboard, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/custom-dashboard/app-infos-dashboard, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/custom-dashboard/widgets, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/custom-dashboard/sharing, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/custom-dashboard/dashboard, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/custom-dashboard/app-infos-dashboard, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/custom-dashboard/widget, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/custom-dashboard/widget-config, PUT} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/custom-dashboard/layout, PUT} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/custom-dashboard/sharing, PUT} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/custom-dashboard, DELETE} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/custom-dashboard/widget, DELETE} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/custom-dashboard/widget-field-value, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/custom-dashboard/widget-field-value, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/custom-dashboard/widget-field-value, DELETE} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/custom-dashboard/filter-values, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/custom-dashboard/widget-data, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/custom-dashboard/dashboard-name, PUT} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/custom-dashboard/duplication, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/custom-dashboard/default, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/custom-dashboard/pin, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/custom-dashboard/pin, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/custom-dashboard/data, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/custom-dashboard/test, POST} route"}
+{"context":"RoutesResolver","level":"info","message":"NotificationController {/notifications}:"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/notifications/rules, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/notifications/rules, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/notifications/rules/group/status, PATCH} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/notifications/rules/group/:id, PATCH} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/notifications/rules/group/:id, DELETE} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/notifications/test/notify-report-fluctuations, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/notifications/test/notify-report-rules, GET} route"}
+{"context":"RoutesResolver","level":"info","message":"StoreController {/stores}:"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/stores/upload, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/stores/releases, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/stores/update-upload, PUT} route"}
+{"context":"RoutesResolver","level":"info","message":"PrometheusController {/metrics}:"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/metrics, GET} route"}
+{"context":"RoutesResolver","level":"info","message":"QueriesController {/queries}:"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/queries, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/queries, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/queries/status, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/queries/:uid, DELETE} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/queries/report-types, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/queries/download, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/queries/jobs-data, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/queries/jobs, DELETE} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/queries/run-waiting-query, POST} route"}
+{"context":"RoutesResolver","level":"info","message":"MktOverviewController {/mkt-overview}:"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/mkt-overview/creative-analytics, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/mkt-overview/creative-gallery, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/mkt-overview/save-ggdrive-creative, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/mkt-overview/cache/update, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/mkt-overview/link-creative, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/mkt-overview/cache/drive-metadata, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/mkt-overview/creative-media, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/mkt-overview/playable-content, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/mkt-overview/creative-tag/add, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/mkt-overview/creative-tag/remove, DELETE} route"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started"}
+{"context":"KpiProgressService - initMonthlyIAPRevenueToCache","level":"warn","message":"IAP revenue data already cached, updating..."}
+{"context":"NestFactory","level":"info","message":"Starting Nest application..."}
+{"context":"InstanceLoader","level":"info","message":"DatabaseModule dependencies initialized"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized"}
+{"context":"InstanceLoader","level":"info","message":"PassportModule dependencies initialized"}
+{"context":"InstanceLoader","level":"info","message":"Cachev2Module dependencies initialized"}
+{"context":"InstanceLoader","level":"info","message":"MulterModule dependencies initialized"}
+{"context":"InstanceLoader","level":"info","message":"StorageModule dependencies initialized"}
+{"context":"InstanceLoader","level":"info","message":"BIJobsModule dependencies initialized"}
+{"context":"InstanceLoader","level":"info","message":"JwtModule dependencies initialized"}
+{"context":"InstanceLoader","level":"info","message":"HttpModule dependencies initialized"}
+{"context":"InstanceLoader","level":"info","message":"AppModule dependencies initialized"}
+{"context":"InstanceLoader","level":"info","message":"PrometheusModule dependencies initialized"}
+{"context":"InstanceLoader","level":"info","message":"ConfigHostModule dependencies initialized"}
+{"context":"InstanceLoader","level":"info","message":"TerminusModule dependencies initialized"}
+{"context":"InstanceLoader","level":"info","message":"DiscoveryModule dependencies initialized"}
+{"context":"InstanceLoader","level":"info","message":"ConfigModule dependencies initialized"}
+{"context":"InstanceLoader","level":"info","message":"ConfigModule dependencies initialized"}
+{"context":"InstanceLoader","level":"info","message":"ScheduleModule dependencies initialized"}
+{"context":"InstanceLoader","level":"info","message":"BullModule dependencies initialized"}
+{"context":"InstanceLoader","level":"info","message":"BullModule dependencies initialized"}
+{"context":"InstanceLoader","level":"info","message":"CacheModule dependencies initialized"}
+{"context":"InstanceLoader","level":"info","message":"CacheModule dependencies initialized"}
+{"context":"InstanceLoader","level":"info","message":"CacheModule dependencies initialized"}
+{"context":"InstanceLoader","level":"info","message":"AuthorizationModule dependencies initialized"}
+{"context":"InstanceLoader","level":"info","message":"BullModule dependencies initialized"}
+{"context":"InstanceLoader","level":"info","message":"BullModule dependencies initialized"}
+{"context":"InstanceLoader","level":"info","message":"AppReviewModule dependencies initialized"}
+{"level":"info","message":"Redis client connected"}
+{"level":"info","message":"Redis client connected"}
+{"level":"info","message":"Redis client connected"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmCoreModule dependencies initialized"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized"}
+{"context":"InstanceLoader","level":"info","message":"CurrencyConverterModule dependencies initialized"}
+{"context":"InstanceLoader","level":"info","message":"CacheDataModule dependencies initialized"}
+{"context":"InstanceLoader","level":"info","message":"ActivityKPIsCacheModule dependencies initialized"}
+{"context":"InstanceLoader","level":"info","message":"AuthModule dependencies initialized"}
+{"context":"InstanceLoader","level":"info","message":"ServiceAccountKeyModule dependencies initialized"}
+{"context":"InstanceLoader","level":"info","message":"ServiceAccountModule dependencies initialized"}
+{"context":"InstanceLoader","level":"info","message":"CountryModule dependencies initialized"}
+{"context":"InstanceLoader","level":"info","message":"UsersModule dependencies initialized"}
+{"context":"InstanceLoader","level":"info","message":"MetricsModule dependencies initialized"}
+{"context":"InstanceLoader","level":"info","message":"StoreModule dependencies initialized"}
+{"context":"InstanceLoader","level":"info","message":"AppInfosModule dependencies initialized"}
+{"context":"InstanceLoader","level":"info","message":"KpiProgressModule dependencies initialized"}
+{"context":"InstanceLoader","level":"info","message":"MktOverviewModule dependencies initialized"}
+{"context":"InstanceLoader","level":"info","message":"DriveModule dependencies initialized"}
+{"context":"InstanceLoader","level":"info","message":"NotificationModule dependencies initialized"}
+{"context":"InstanceLoader","level":"info","message":"ProductLeaderboardModule dependencies initialized"}
+{"context":"InstanceLoader","level":"info","message":"CustomDashboardsModule dependencies initialized"}
+{"context":"InstanceLoader","level":"info","message":"DataConnectorsModule dependencies initialized"}
+{"level":"warn","message":"DEPRECATED! \"CacheModule\" (from the \"@nestjs/common\" package) is deprecated and will be removed in the next major release. Please, use the \"@nestjs/cache-manager\" package instead."}
+{"context":"InstanceLoader","level":"info","message":"DataconnectorsV2Module dependencies initialized"}
+{"context":"InstanceLoader","level":"info","message":"QueriesModule dependencies initialized"}
+{"context":"InstanceLoader","level":"info","message":"ChartsModule dependencies initialized"}
+{"context":"RoutesResolver","level":"info","message":"AppController {/}:"}
+{"context":"RoutesResolver","level":"info","message":"UsersController {/users}:"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users/all-principals-role-permissions, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users/principal-role-permissions, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users/principal-name, PUT} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users/current-role-permissions, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users/principal-authority, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users/principal-authority, PUT} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users/principal-authority, PATCH} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users/role-reset, PUT} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users/custom-role, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users/all-roles, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users/role-group-config/init, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users/role-group-config, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users/roles-page-init, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users/custom-role, DELETE} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users/custom-role, PUT} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users/role-principals, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users/principal, DELETE} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users/is-authorized, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users/update-new-feature-permissions, PUT} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/users/emails, GET} route"}
+{"context":"RoutesResolver","level":"info","message":"AppInfosController {/apps}:"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/apps, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/apps/management, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/apps/count, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/apps, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/apps, PATCH} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/apps/service-account, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/apps, DELETE} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/apps/update-status, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/apps/release-spreadsheets, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/apps/release-spreadsheets, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/apps/release-spreadsheets/:id, PUT} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/apps/release-spreadsheets/:id, DELETE} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/apps/release-spreadsheets/update, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/apps/release-spreadsheets/reset, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/apps/release-notes, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/apps/release-notes/reload, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/apps/release, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/apps/store-fees, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/apps/store-fees, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/apps/store-fees/:id, DELETE} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/apps/store-fees/:id, PATCH} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/apps/categories, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/apps/categories, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/apps/categories/:id, PATCH} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/apps/categories/:id, DELETE} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/apps/categories/:id/sub-categories, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/apps/categories/:id/sub-categories/:subId, PATCH} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/apps/categories/:id/sub-categories/:subId, DELETE} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/apps/app-store-info, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/apps/app-store-info, PATCH} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/apps/appsflyer/push-api, PUT} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/apps/appsflyer/push-api, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/apps/gcp/projects, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/apps/gcp/projects/firebase/apps, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/apps/gcp/projects/firebase/analytics, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/apps/features, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/apps/app-features, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/apps/features/attach, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/apps/features/detach, DELETE} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/apps/iap-packs, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/apps/iap-packs, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/apps/app-iap-packs/store, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/apps/iap-packs/attach, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/apps/iap-packs/detach, DELETE} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/apps/update-iap-feature, GET} route"}
+{"context":"RoutesResolver","level":"info","message":"DataConnectorsController {/data-connectors}:"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors, PUT} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors, DELETE} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/transmission/:transmissionId, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/transmission, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/assign, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/assign/:assignId, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/configuration, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/configuration, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/configuration/:configurationId, PATCH} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/transmit/multiple-anw, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/assign/meta, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/assign/clone/meta, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/meta/campaigns/:dataConnectorId/:adAccountId, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/meta/adcreatives/:dataConnectorId/:adAccountId, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/transmit/unity, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/:id/youtube-playlist, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/:id/youtube-playlist, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/youtube-videos, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/youtube/playlist-videos, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/detail/:id, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/assign/tiktok, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/assign/unity, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/unassign/unity, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/:id/mintegral-assign-offer, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/transmit/applovin, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/assign/applovin, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/transmit/ironsource, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/assign/ironsource, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/refactor/assign/unity, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/uploaded-creatives, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/uploaded-folders/creatives, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/reports/cost, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/reports/installs, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/reports/revenue-realtime, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/reports/mediation, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/reports/max, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/reports/iap, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/reports/uaxmo, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/reports/cache, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/reports/cache/reset, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/reports/cache/update, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/unity/apps, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/report/unity/cached, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/report/unity/cached/reset, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/report/unity/cached/update, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/authorization/init, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/ironsource/polling, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/ironsource/playable, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/app-campaigns, GET} route"}
+{"context":"RoutesResolver","level":"info","message":"DriveController {/drive}:"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/drive/files/:fileId, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/drive/files, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/drive/permissions, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/drive/download, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/drive/files, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/drive/service-account, GET} route"}
+{"context":"RoutesResolver","level":"info","message":"KpiProgressController {/kpi-progress}:"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/kpi-progress/achievement, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/kpi-progress/achievement/cached, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/kpi-progress/achievement/cached/reload, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/kpi-progress/achievement/cached/update, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/kpi-progress, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/kpi-progress/:id, PATCH} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/kpi-progress/:id, DELETE} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/kpi-progress/:id, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/kpi-progress, GET} route"}
+{"context":"RoutesResolver","level":"info","message":"AppReviewController {/app-review}:"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/app-review, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/app-review, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/app-review/cache/update, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/app-review/cache/reset, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/app-review/jobs, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/app-review/jobs, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/app-review/jobs, DELETE} route"}
+{"context":"RoutesResolver","level":"info","message":"AuthorizationController {/auth}:"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/auth/google/admob, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/auth/google/adwords, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/auth/google/drive, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/auth/google/youtube, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/auth/google/gmail, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/auth/facebook, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/auth/facebook/callback, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/auth/tiktok, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/auth/tiktok/callback, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/auth/applovin, GET} route"}
+{"context":"RoutesResolver","level":"info","message":"MetricsController {/metrics}:"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/metrics, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/metrics/restricted/:principalId, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/metrics/restricted, PUT} route"}
+{"context":"RoutesResolver","level":"info","message":"ServiceAccountKeyController {/service-account-key}:"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/service-account-key, POST} route"}
+{"context":"RoutesResolver","level":"info","message":"ServiceAccountController {/service-account}:"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/service-account, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/service-account, POST} route"}
+{"context":"RoutesResolver","level":"info","message":"DataConnectorV2Controller {/data-connectors}:"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/:id/mintegral-campaigns, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/:id/mintegral-offers, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/:id/mintegral-creatives, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/:id/mintegral-creative-sets, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/applovin/campaigns, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/applovin/creatives, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/applovin/creative-sets, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/unity/campaigns, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/unity/campaigns, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/unity/campaigns, PUT} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/unity/eligibility, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/unity/sdk-events, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/campaign-details/unity/bids, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/campaign-details/unity/budget, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/campaign-details/unity/creative-packs, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/campaign-details/unity, PATCH} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/tiktok/:id/campaigns, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/tiktok/:id/adgroups, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/tiktok/:id/creative-videos, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/admob/accounts, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/admob/apps, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/admob/ad-units, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/ironsource/campaigns/:dataConnectorId, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/ironsource/detail/campaigns/:dataConnectorId, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/ironsource/detail/creative-sets/:dataConnectorId, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/google-ads/campaigns, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/data-connectors/google-ads/assign, POST} route"}
+{"context":"RoutesResolver","level":"info","message":"LevelsController {/levels}:"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/levels/win, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/levels/loss, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/levels/start, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/levels/dropoff, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/levels/booster-used, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/levels/first-play-win-rate, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/levels/average-loss, GET} route"}
+{"context":"RoutesResolver","level":"info","message":"ResourcesController {/resources}:"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/resources/currency-source, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/resources/currency-sink, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/resources/currency-source-transactions, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/resources/currency-sink-transactions, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/resources/item-sink-count, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/resources/level-source, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/resources/level-sink, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/resources/screen-sink, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/resources/currency-flow, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/resources/level-flow, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/resources/currency-balance, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/resources/currency-balance-source, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/resources/user-bought-spent, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/resources/currency-bought-spent, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/resources/currency-source-by-level, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/resources/top-item, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/resources/purchase-structure, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/resources/top-purchase, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/resources/source-sink, GET} route"}
+{"context":"RoutesResolver","level":"info","message":"EngagementController {/engagement}:"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/engagement/session-start, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/engagement/engagement-time, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/engagement/daily-active-users, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/engagement/screen-engagement-time, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/engagement/screen-app-remove, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/engagement/level-app-remove, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/engagement/retention-rate, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/engagement/app-remove-per-installs, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/engagement/activity-kpis, GET} route"}
+{"context":"RoutesResolver","level":"info","message":"MonetizationController {/monetization}:"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/monetization/rewarded-video, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/monetization/rewarded-video-booster, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/monetization/rewarded-video-placement, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/monetization/rewarded-ads-show, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/monetization/interstitial-ads-show, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/monetization/day-show-inters, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/monetization/day-show-banner, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/monetization/day-rewarded-video, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/monetization/total-day-rwd-show-inters, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/monetization/day-received-rewarded-video, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/monetization/total-revenue, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/monetization/sum-revenue/admob, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/monetization/sum-revenue/max, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/monetization/sum-revenue/iap, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/monetization/total-spent, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/monetization/ecpm, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/monetization/iaa-revenue-by-ad-format, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/monetization/top-purchased-items-iap, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/monetization/ltv-per-rev, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/monetization/rewarded-video-level, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/monetization/revenue-by-package, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/monetization/placement-purchased-items, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/monetization/average-revenue, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/monetization/average-purchase, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/monetization/top-purchase-day, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/monetization/total-revenue-date, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/monetization/total-revenue-v2, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/monetization/pay-rate, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/monetization/report-pack, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/monetization/payment-breakdown, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/monetization/payment-breakdown-level, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/monetization/overview-metrics, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/monetization/overview-metrics/average-revenue, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/monetization/ingame-metrics/retention, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/monetization/ingame-metrics/engagement-time, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/monetization/ingame-metrics/imp-per-dau, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/monetization/business-metrics/roas, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/monetization/payback, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/monetization/overview-metrics/ecpi, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/monetization/overview/init-cache, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/monetization/overview/update-cache, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/monetization/overview/init-cache/average-revenue, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/monetization/overview/update-cache/average-revenue, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/monetization/mkt/ua-mo, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/monetization/average-purchase-payment-timegap, GET} route"}
+{"context":"RoutesResolver","level":"info","message":"ChartsController {/charts}:"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/charts/filter-values/levels/:chart, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/charts/filter-values/resources/:chart, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/charts/filter-values/monetization/:chart, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/charts/filter-values/engagement/:chart, GET} route"}
+{"context":"RoutesResolver","level":"info","message":"ProductLeaderboardController {/leaderboard}:"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/leaderboard/anr-rate, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/leaderboard/crash-rate, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/leaderboard/retention-rate, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/leaderboard/playtime, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/leaderboard/cache, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/leaderboard/cache/reload, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/leaderboard/cache/update, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/leaderboard/app-size, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/leaderboard/app-versions, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/leaderboard/rating, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/leaderboard/cache/anr-init, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/leaderboard/cache/crash-init, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/leaderboard/cache/appSize-init, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/leaderboard/details/retention-rate, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/leaderboard/app-versions/map-code-name, GET} route"}
+{"context":"RoutesResolver","level":"info","message":"CountryController {/countries}:"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/countries/initialize, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/countries, GET} route"}
+{"context":"RoutesResolver","level":"info","message":"CustomDashboardsController {/custom-dashboard}:"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/custom-dashboard, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/custom-dashboard/app-infos-dashboard, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/custom-dashboard/widgets, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/custom-dashboard/sharing, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/custom-dashboard/dashboard, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/custom-dashboard/app-infos-dashboard, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/custom-dashboard/widget, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/custom-dashboard/widget-config, PUT} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/custom-dashboard/layout, PUT} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/custom-dashboard/sharing, PUT} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/custom-dashboard, DELETE} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/custom-dashboard/widget, DELETE} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/custom-dashboard/widget-field-value, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/custom-dashboard/widget-field-value, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/custom-dashboard/widget-field-value, DELETE} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/custom-dashboard/filter-values, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/custom-dashboard/widget-data, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/custom-dashboard/dashboard-name, PUT} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/custom-dashboard/duplication, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/custom-dashboard/default, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/custom-dashboard/pin, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/custom-dashboard/pin, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/custom-dashboard/data, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/custom-dashboard/test, POST} route"}
+{"context":"RoutesResolver","level":"info","message":"NotificationController {/notifications}:"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/notifications/rules, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/notifications/rules, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/notifications/rules/group/status, PATCH} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/notifications/rules/group/:id, PATCH} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/notifications/rules/group/:id, DELETE} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/notifications/test/notify-report-fluctuations, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/notifications/test/notify-report-rules, GET} route"}
+{"context":"RoutesResolver","level":"info","message":"StoreController {/stores}:"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/stores/upload, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/stores/releases, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/stores/update-upload, PUT} route"}
+{"context":"RoutesResolver","level":"info","message":"PrometheusController {/metrics}:"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/metrics, GET} route"}
+{"context":"RoutesResolver","level":"info","message":"QueriesController {/queries}:"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/queries, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/queries, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/queries/status, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/queries/:uid, DELETE} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/queries/report-types, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/queries/download, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/queries/jobs-data, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/queries/jobs, DELETE} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/queries/run-waiting-query, POST} route"}
+{"context":"RoutesResolver","level":"info","message":"MktOverviewController {/mkt-overview}:"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/mkt-overview/creative-analytics, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/mkt-overview/creative-gallery, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/mkt-overview/save-ggdrive-creative, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/mkt-overview/cache/update, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/mkt-overview/link-creative, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/mkt-overview/cache/drive-metadata, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/mkt-overview/creative-media, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/mkt-overview/playable-content, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/mkt-overview/creative-tag/add, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/mkt-overview/creative-tag/remove, DELETE} route"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started"}
+{"context":"KpiProgressService - initMonthlyIAPRevenueToCache","level":"warn","message":"IAP revenue data already cached, updating..."}
+{"context":"HTTP","level":"info","message":"POST /custom-dashboard/test 201 Created 2089.66ms - PostmanRuntime/7.37.3 ::1"}
+{"context":"KpiProgressService - initDailyIAPRevenueToCache","level":"warn","message":"Daily IAP revenue data already cached, updating..."}
+{"context":"LeaderboardCacheService - initRetentionRateCache","level":"warn","message":"Retention rate already cached, updating..."}
+{"context":"LeaderboardCacheService - initAnrRateCache","level":"warn","message":"ANR rate already cached, updating..."}
+{"context":"LeaderboardCacheService - initCrashRateCache","level":"warn","message":"Crash rate already cached, updating..."}
+{"context":"LeaderboardCacheService - initAppSizeCache","level":"warn","message":"AppSize already cached, updating..."}
+{"0":"2024-01-01","1":"2024-03-21","context":"AnrRateService - getAnrRate - Uncached time range","level":"info"}
+{"context":"OverviewMetricService - initCacheOverviewDau","level":"info","message":"Overview DAU cache already exists, updating..."}
+{"context":"UnityConnectorService - initializeReportToCache","level":"warn","message":"Unity report already cached, updating..."}
+{"context":"OverviewCacheService - initCacheImpressionPerDau","level":"warn","message":"Impression per dau already exists, updating..."}
+{"context":"OverviewCacheService - initAverageRevenue","level":"warn","message":"Average Revenue already exists, updating..."}
+{"context":"HTTP","level":"info","message":"POST /custom-dashboard/test 201 Created 12907.01ms - PostmanRuntime/7.37.3 ::1"}
+{"context":"HTTP","level":"warn","message":"POST /custom-dashboard/layout 404 Not Found 1.67ms - PostmanRuntime/7.37.3 ::1"}
+{"codePrefix":"auth","context":"FirebaseAuthStrategy","error":{"code":"auth/id-token-expired","message":"Firebase ID token has expired. Get a fresh ID token from your client app and try again (auth/id-token-expired). See https://firebase.google.com/docs/auth/admin/verify-id-tokens for details on how to retrieve an ID token."},"errorInfo":{"code":"auth/id-token-expired","message":"Firebase ID token has expired. Get a fresh ID token from your client app and try again (auth/id-token-expired). See https://firebase.google.com/docs/auth/admin/verify-id-tokens for details on how to retrieve an ID token."},"level":"error","message":"Firebase ID token has expired. Get a fresh ID token from your client app and try again (auth/id-token-expired). See https://firebase.google.com/docs/auth/admin/verify-id-tokens for details on how to retrieve an ID token.","stack":["Error: Firebase ID token has expired. Get a fresh ID token from your client app and try again (auth/id-token-expired). See https://firebase.google.com/docs/auth/admin/verify-id-tokens for details on how to retrieve an ID token.\n    at FirebaseTokenVerifier.mapJwtErrorToAuthError (D:\\SONAT\\sonat-bi-be\\node_modules\\firebase-admin\\lib\\auth\\token-verifier.js:262:20)\n    at D:\\SONAT\\sonat-bi-be\\node_modules\\firebase-admin\\lib\\auth\\token-verifier.js:246:24\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at FirebaseAuthStrategy.validate (D:\\SONAT\\sonat-bi-be\\src\\authentication\\strategies\\firebase-auth-strategy.ts:40:20)"]}
+{"context":"HTTP","level":"warn","message":"PUT /custom-dashboard/layout 400 Bad Request 183.10ms - PostmanRuntime/7.37.3 ::1"}
+{"context":"CustomDashboardsController","error":{"message":"Bad Request Exception","name":"BadRequestException","options":{},"response":{"error":"Bad Request","message":["gridLayouts should not be empty","gridLayouts must be an array"],"statusCode":400},"status":400},"level":"error","message":"Bad Request Exception","options":{},"response":{"error":"Bad Request","message":["gridLayouts should not be empty","gridLayouts must be an array"],"statusCode":400},"stack":["BadRequestException: Bad Request Exception\n    at ValidationPipe.exceptionFactory (D:\\SONAT\\sonat-bi-be\\node_modules\\@nestjs\\common\\pipes\\validation.pipe.js:99:20)\n    at ValidationPipe.transform (D:\\SONAT\\sonat-bi-be\\node_modules\\@nestjs\\common\\pipes\\validation.pipe.js:72:30)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at D:\\SONAT\\sonat-bi-be\\node_modules\\@nestjs\\core\\pipes\\pipes-consumer.js:15:25\n    at resolveParamValue (D:\\SONAT\\sonat-bi-be\\node_modules\\@nestjs\\core\\router\\router-execution-context.js:147:23)\n    at async Promise.all (index 0)\n    at pipesFn (D:\\SONAT\\sonat-bi-be\\node_modules\\@nestjs\\core\\router\\router-execution-context.js:150:13)\n    at D:\\SONAT\\sonat-bi-be\\node_modules\\@nestjs\\core\\router\\router-execution-context.js:37:30"],"status":400}
+{"context":"HTTP","level":"warn","message":"PUT /custom-dashboard/layout 400 Bad Request 1717.21ms - PostmanRuntime/7.37.3 ::1"}
+{"context":"CustomDashboardsController","error":{"message":"Can not change this dashboard","name":"ForbiddenException","options":{},"response":{"error":"Forbidden","message":"Can not change this dashboard","statusCode":403},"status":403},"level":"error","message":"Can not change this dashboard","options":{},"response":{"error":"Forbidden","message":"Can not change this dashboard","statusCode":403},"stack":["ForbiddenException: Can not change this dashboard\n    at CustomDashboardsService.updateWidgetsLayout (D:\\SONAT\\sonat-bi-be\\src\\charts\\custom\\custom-dashboards.service.ts:321:13)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at CustomDashboardsController.updateWidgetsLayout (D:\\SONAT\\sonat-bi-be\\src\\charts\\custom\\custom-dashboards.controller.ts:116:5)"],"status":403}
+{"context":"HTTP","level":"warn","message":"PUT /custom-dashboard/layout 403 Forbidden 2316.11ms - PostmanRuntime/7.37.3 ::1"}
+{"context":"CreativeCacheService - updateCreativeStatus","level":"info","message":"Updating creative status cache"}
+{"context":"AppReviewService - updateCacheReviewGooglePlay","level":"info","message":"Update cache review GooglePlay ..."}
+{"context":"OverviewCacheService - initCacheImpressionPerDau","level":"warn","message":"Impression per dau already exists, updating..."}
+{"context":"CreativeStatusService - fetchCreativeStatus","level":"info","message":"Fetched meta creative status done!"}
+{"errors":[{"error_code":{"authorization_error":"DEVELOPER_TOKEN_NOT_APPROVED"},"message":"The developer token is only approved for use with test accounts. To access non-test accounts, apply for Basic or Standard access."}],"level":"error","request_id":"bRLfRIGotpkKTo3G4W-ZRQ","stack":["Get SubAccounts of Manager query"]}
+{"context":"AppInfosService - loadReleaseNotes","level":"warn","message":"No new release data in spreadsheet 5 to load"}
+{"context":"CreativeStatusService - fetchCreativeStatus","level":"info","message":"Fetched google creative status done!"}
+{"context":"CustomDashboardsController","error":{"message":"Can not change this dashboard","name":"ForbiddenException","options":{},"response":{"error":"Forbidden","message":"Can not change this dashboard","statusCode":403},"status":403},"level":"error","message":"Can not change this dashboard","options":{},"response":{"error":"Forbidden","message":"Can not change this dashboard","statusCode":403},"stack":["ForbiddenException: Can not change this dashboard\n    at CustomDashboardsService.updateWidgetsLayout (D:\\SONAT\\sonat-bi-be\\src\\charts\\custom\\custom-dashboards.service.ts:321:13)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at CustomDashboardsController.updateWidgetsLayout (D:\\SONAT\\sonat-bi-be\\src\\charts\\custom\\custom-dashboards.controller.ts:116:5)"],"status":403}
+{"context":"HTTP","level":"warn","message":"PUT /custom-dashboard/layout 403 Forbidden 4097.60ms - PostmanRuntime/7.37.3 ::1"}
+{"context":"CreativeStatusService - fetchCreativeStatus","level":"info","message":"Fetched ironsource creative status done!"}
+{"context":"CreativeStatusService - fetchCreativeStatus","level":"info","message":"Fetched mintegral creative status done!"}
+{"context":"CreativeStatusService - fetchCreativeStatus","level":"info","message":"Fetched applovin creative status done!"}
+{"context":"CreativeStatusService - fetchCreativeStatus","level":"info","message":"Fetched tiktok creative status done!"}
+{"context":"CreativeStatusService - fetchCreativeStatus","level":"info","message":"Fetched unity creative status done!"}
+{"context":"AppReviewService - updateCacheReviewGooglePlay","level":"info","message":"Update cache review GooglePlay done!"}
+{"context":"CustomDashboardsController","error":{"message":"Can not change this dashboard","name":"ForbiddenException","options":{},"response":{"error":"Forbidden","message":"Can not change this dashboard","statusCode":403},"status":403},"level":"error","message":"Can not change this dashboard","options":{},"response":{"error":"Forbidden","message":"Can not change this dashboard","statusCode":403},"stack":["ForbiddenException: Can not change this dashboard\n    at CustomDashboardsService.updateWidgetsLayout (D:\\SONAT\\sonat-bi-be\\src\\charts\\custom\\custom-dashboards.service.ts:321:13)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at CustomDashboardsController.updateWidgetsLayout (D:\\SONAT\\sonat-bi-be\\src\\charts\\custom\\custom-dashboards.controller.ts:116:5)"],"status":403}
+{"context":"HTTP","level":"warn","message":"PUT /custom-dashboard/layout 403 Forbidden 2890.91ms - PostmanRuntime/7.37.3 ::1"}
+{"context":"HTTP","level":"warn","message":"PUT /custom-dashboard/test 404 Not Found 4.57ms - PostmanRuntime/7.37.3 ::1"}
+{"context":"HTTP","level":"info","message":"POST /custom-dashboard/test 201 Created 6939.85ms - PostmanRuntime/7.37.3 ::1"}
+{"context":"DataConnectorsController","error":{"message":"Bad Request Exception","name":"BadRequestException","options":{},"response":{"error":"Bad Request","message":["name must be a string","name should not be empty","type must be one of the following values: AdNetwork, AnalyticsService, AssetManagement, AttributionService, AppReview, Notification","type must be a string","type should not be empty","subtype \"undefined\" is invalid for type \"undefined\"","subtype must be one of the following values: Google_Ads, Meta, Tiktok, Unity, Mintegral, AppLovin, IronSource, Youtube, Drive, Google_Admob, Max, Appsflyer, Gmail, GooglePlay, AppStore","subtype must be a string","subtype should not be empty","config must be an object","config should not be empty"],"statusCode":400},"status":400},"level":"error","message":"Bad Request Exception","options":{},"response":{"error":"Bad Request","message":["name must be a string","name should not be empty","type must be one of the following values: AdNetwork, AnalyticsService, AssetManagement, AttributionService, AppReview, Notification","type must be a string","type should not be empty","subtype \"undefined\" is invalid for type \"undefined\"","subtype must be one of the following values: Google_Ads, Meta, Tiktok, Unity, Mintegral, AppLovin, IronSource, Youtube, Drive, Google_Admob, Max, Appsflyer, Gmail, GooglePlay, AppStore","subtype must be a string","subtype should not be empty","config must be an object","config should not be empty"],"statusCode":400},"stack":["BadRequestException: Bad Request Exception\n    at ValidationPipe.exceptionFactory (D:\\SONAT\\sonat-bi-be\\node_modules\\@nestjs\\common\\pipes\\validation.pipe.js:99:20)\n    at ValidationPipe.transform (D:\\SONAT\\sonat-bi-be\\node_modules\\@nestjs\\common\\pipes\\validation.pipe.js:72:30)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at D:\\SONAT\\sonat-bi-be\\node_modules\\@nestjs\\core\\pipes\\pipes-consumer.js:15:25\n    at resolveParamValue (D:\\SONAT\\sonat-bi-be\\node_modules\\@nestjs\\core\\router\\router-execution-context.js:147:23)\n    at async Promise.all (index 0)\n    at pipesFn (D:\\SONAT\\sonat-bi-be\\node_modules\\@nestjs\\core\\router\\router-execution-context.js:150:13)\n    at D:\\SONAT\\sonat-bi-be\\node_modules\\@nestjs\\core\\router\\router-execution-context.js:37:30"],"status":400}
+{"context":"HTTP","level":"warn","message":"POST /data-connectors/?type=AdNetwork 400 Bad Request 3456.52ms - PostmanRuntime/7.37.3 ::1"}
+{"errors":[{"error_code":{"authorization_error":"DEVELOPER_TOKEN_NOT_APPROVED"},"message":"The developer token is only approved for use with test accounts. To access non-test accounts, apply for Basic or Standard access."}],"level":"error","request_id":"UE9ptlxz5eN0nIxHMgKcSQ","stack":["Get SubAccounts of Manager query"]}
+{"context":"HTTP","level":"info","message":"GET /data-connectors/?type=AdNetwork 200 OK 11052.12ms - PostmanRuntime/7.37.3 ::1"}
+{"0":"2024-01-01","1":"2024-03-21","context":"AnrRateService - getAnrRate - Uncached time range","level":"info"}
+{"errors":[{"error_code":{"authorization_error":"DEVELOPER_TOKEN_NOT_APPROVED"},"message":"The developer token is only approved for use with test accounts. To access non-test accounts, apply for Basic or Standard access."}],"level":"error","request_id":"hSuTz2d8JXqi0R1lu7MnWQ","stack":["Get SubAccounts of Manager query"]}
+{"context":"HTTP","level":"info","message":"GET /data-connectors/?type=AdNetwork 200 OK 12211.13ms - PostmanRuntime/7.37.3 ::1"}

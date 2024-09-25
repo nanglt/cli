@@ -1,7 +1,6 @@
 # Nodejs CRUD Command Line Application
 This repository contains the code for a CRUD CLI application built with nodejs.
 
-See [Tutorial here](https://www.freecodecamp.org/news/how-to-build-a-command-line-application-with-nodejs/)
 
 ## Dependencies
 - [Nodejs](https://nodejs.org/en/)

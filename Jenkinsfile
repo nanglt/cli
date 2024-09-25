@@ -1,4 +1,5 @@
 pipeline {
+  agent eny
   stages{
     state('Hello') {
       steps {

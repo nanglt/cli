@@ -1,7 +1,7 @@
 pipeline {
-  agent eny
-  stages{
-    state('Hello') {
+  agent any
+  stages {
+    stage('Hello') {
       steps {
         echo 'Hello World'
       }

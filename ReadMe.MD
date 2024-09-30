@@ -17,5 +17,3 @@ This repository contains the code for a CRUD CLI application built with nodejs.
 - Install dependencies: 
 `npm i`.
 
-- Run the following command to see the output of each file: 
-`node <file_name>`.
